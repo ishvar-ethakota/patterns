@@ -1,0 +1,2 @@
+take any platform and clone the login platform 
+pass - 8 char,1 special char, 1 number,1 lower case
