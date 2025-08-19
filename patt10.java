@@ -1,18 +1,18 @@
-public class patt9 {
+public class patt10 {
     public static void main(String[] args) {
-        int n = 10;
-        for(int i=0;i<n;i++)
+        int n=10;
+        for(int i=1;i<=n;i++)
         {
-            for(int j=0;j<=i;j++)
+            for(int j=1;j<=n-i;j++)
             {
                 System.out.print(" ");
             }
-            for(int j=0;j<(2*n-1)-2*i;j++)
+            for(int k=1;k<=i;k++)
             {
-                System.out.print("*");
+                System.out.print("* ");
             }
             System.out.print("\n");
         }
+
     }
-    
 }
